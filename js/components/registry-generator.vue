@@ -8,6 +8,8 @@
         </div>
         <div class="output">
             <code>
+                Windows Registry Editor Version 5.00<br>
+                <br>
                 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]<br>
                 "NoDriveAutoRun"=hex:{{ noDriveAutoRun }}
             </code>
