@@ -61,7 +61,7 @@
 
     .selector {
         display: grid;
-        grid-gap: 8px;
+        grid-gap: 0 8px;
         grid-template-columns: repeat(auto-fill, minmax(50px, auto));
         user-select: none;
     }
@@ -72,19 +72,21 @@
         border-radius: 4px;
         background-color: #eeeeee;
         padding: 8px 20px;
-        margin: 10px 0;
+        margin: 2px 0 10px;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
 
     .output code {
-        font-size: 18px;
+        font-size: 12pt;
         font-family: Consolas, 'Courier New', monospace;
     }
 
     label span {
         text-align: center;
         width: calc(100% - 2px);
+        max-width: 50px;
+        margin-bottom: 8px;
         padding: 3px 0;
         display: inline-block;
         color: #f1f1f1;
